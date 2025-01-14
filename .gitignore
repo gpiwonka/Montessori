@@ -39,3 +39,4 @@ sentrysecret
 
 **/tsconfig.tsbuildinfo
 .turbo/*
+/.vs
