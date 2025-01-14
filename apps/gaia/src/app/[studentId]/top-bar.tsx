@@ -21,7 +21,7 @@ export default async function TopBar({ studentId }: Props) {
 
         {students && student && (
           <StudentSelector
-            students={students.map((s) => {
+            students={students.map((s: { id: any; name: any; profilePic: any }) => {
               return {
                 id: s.id,
                 name: s.name,
